@@ -14,3 +14,15 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('fac', function () {
+    // return 'Prueba';
+    return view('factura');
+});
+Route::get('pro',function(){
+    return view('producto');
+});
+Route::get('cli',function(){
+    return view('cliente');
+});
+
